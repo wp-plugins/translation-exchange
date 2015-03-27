@@ -1,13 +1,13 @@
-=== Translation Exchange - Translate Your WordPress Site In Minutes! ===
+=== Translation Exchange ===
 Contributors: translationx
-Tags: translationexchange, translation exchange, translation, exchange, tml, localization, localize, localisation, localise, translate,  translator, translations, l10n, i18n, tr8n, language, switch, select, selector, change, switcher
+Tags: translation, translate, localization, localize, localisation, localise, translator, translators, translations, l10n, i18n, internationalization, tr8n, language, switch, select, selector, change, switcher, translationexchange, translation exchange, exchange, tml
 Requires at least: 3.0
 Tested up to: 4.1.1
 Stable tag: 0.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-Translate your WordPress site in minutes.
+Translate your WordPress site in minutes!
 
 == Description ==
 Translate your WordPress into any number of languages with minimal amount of effort.
@@ -25,7 +25,7 @@ Translate your WordPress into any number of languages with minimal amount of eff
 
 == Installation ==
 
-1.  [Sign up for a free Translation Exchange account](https://dashboard.translationexchange.com/signup)
+1.  Sign up for a free [Translation Exchange account](https://dashboard.translationexchange.com/signup)
 1.  Create a new project and copy your project key.
 1.  Install this plugin and open the settings page from the admin menu.
 1.  Paste your project key and save the settings.
@@ -50,9 +50,9 @@ Our documentation is constantly updated with the latest FAQs.
 
 == Screenshots ==
 
-1. Translation Exchange Settings
-1. Language Selector Widget
-1. In-Context Translator
+1. Translation Exchange plugin settings
+1. Language selector widget
+1. Translate your site right from within your site
 
 == Changelog ==
 
