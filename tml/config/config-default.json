@@ -1,0 +1,102 @@
+{
+	"application": {
+		"token": "APPLICATION_TOKEN"
+	},
+    "log": {
+        "enabled": false,
+        "severity": "debug"
+    },
+    "local": {
+        "base_path": "/"
+    },
+	"cache": {
+        "enabled": true,
+        "adapter": "file",
+        "path": "cache",
+        "version": "current"
+    },
+    "cache_sample_file": {
+        "enabled": true,
+        "adapter": "file",
+        "path": "cache",
+        "version": "current"
+    },
+    "cache_sample_apc": {
+        "enabled": true,
+        "adapter": "apc",
+        "version": 1
+    },
+    "cache_sample_memcache": {
+        "enabled": true,
+        "adapter": "memcache",
+        "host": "localhost",
+        "port": 11211,
+        "version": 1,
+        "timeout": 3600
+    },
+    "cache_sample_memcached": {
+        "enabled": true,
+        "adapter": "memcached",
+        "host": "localhost",
+        "port": 11211,
+        "version": 1,
+        "timeout": 3600
+    },
+    "cache_sample_redis": {
+        "enabled": true,
+        "adapter": "redis",
+        "host": "localhost",
+        "port": 6379,
+        "version": 1,
+        "timeout": 3600
+    },
+	"html_translator": {
+		"debug": false,
+		"debug_format": "<span style='font-size:20px;color:red;'>{<\/span> {$0} <span style='font-size:20px;color:red;'>}<\/span>",
+		"split_sentences": false,
+		"nodes": {
+			"ignored": [
+				"html",
+				"body"
+			],
+			"inline": [
+				"a",
+				"span",
+				"i",
+				"b",
+				"img",
+				"strong",
+				"s",
+				"em",
+				"u",
+				"sub",
+				"sup"
+			],
+			"short": [
+				"i",
+				"b"
+			],
+			"splitters": [
+				"br",
+				"hr"
+			]
+		},
+		"attributes": {
+			"labels": [
+				"title",
+				"alt"
+			]
+		},
+		"name_mapping": {
+			"b": "bold",
+			"i": "italic",
+			"a": "link",
+			"img": "picture"
+		},
+		"data_tokens": {
+			"special": false,
+			"numeric": false,
+			"numeric_name": "num"
+		}
+	}
+}

@@ -1,0 +1,64 @@
+{
+    "log": {
+        "enabled": true,
+        "severity": "debug"
+    },
+    "local": {
+        "base_path": "/"
+    },
+	"cache": {
+        "enabled": false,
+        "adapter": "file",
+        "path": "cache",
+        "version": "current"
+    },
+	"html_translator": {
+		"debug": false,
+		"debug_format": "<span style='font-size:20px;color:red;'>{<\/span> {$0} <span style='font-size:20px;color:red;'>}<\/span>",
+		"split_sentences": false,
+		"nodes": {
+			"ignored": [
+				"html",
+				"body"
+			],
+			"inline": [
+				"a",
+				"span",
+				"i",
+				"b",
+				"img",
+				"strong",
+				"s",
+				"em",
+				"u",
+				"sub",
+				"sup"
+			],
+			"short": [
+				"i",
+				"b"
+			],
+			"splitters": [
+				"br",
+				"hr"
+			]
+		},
+		"attributes": {
+			"labels": [
+				"title",
+				"alt"
+			]
+		},
+		"name_mapping": {
+			"b": "bold",
+			"i": "italic",
+			"a": "link",
+			"img": "picture"
+		},
+		"data_tokens": {
+			"special": false,
+			"numeric": false,
+			"numeric_name": "num"
+		}
+	}
+}
